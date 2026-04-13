@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "slug": "playwright-vs-jest-when-to-use-each",
+  "step": "created",
+  "completed_specs": [],
+  "pending_specs": ["jest-unit-example", "playwright-e2e-example"],
+  "created_at": "2026-04-13T00:00:00.000Z",
+  "updated_at": "2026-04-13T00:00:00.000Z"
+}
