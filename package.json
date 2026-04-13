@@ -1,0 +1,22 @@
+{
+  "name": "playwright-vs-jest-when-to-use-each",
+  "version": "0.1.0",
+  "description": "Companion code: Playwright vs Jest — the 70/20/10 rule that settles it.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "jest --verbose",
+    "test:e2e": "playwright test --config playwright/playwright.config.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "msw": "^2.7.0",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/jest-dom": "^6.6.0",
+    "@playwright/test": "^1.49.0"
+  }
+}
